@@ -1,13 +1,13 @@
 package dev.qpixel.templateplugin;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import dev.qpixel.helios.api.HeliosPlugin;
 
-public final class Templateplugin extends JavaPlugin {
+public final class TemplatePlugin extends HeliosPlugin {
 
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        heliosAPI.init(this);
     }
 
     @Override
