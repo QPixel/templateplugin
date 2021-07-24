@@ -1,0 +1,8 @@
+name: Templateplugin
+version: ${project.version}
+main: dev.qpixel.templateplugin.Templateplugin
+api-version: 1.17
+depend: [ Helios ]
+authors: [ QPixel ]
+description: Template plugin
+website: https://qpixel.me
